@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li{
+    list-style: none;
+}
+.nav-items li a{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-items li a:hover{
+    color: red;
+}
+.nav-logo{
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+}
+.card-body{
+    transition: all .2s ease;
+}
+.card1:hover{
+    background-color: #ff6fff !important ;
+}
+.card2:hover{
+    background-color: #ffa500 !important;
+}
+.card3:hover{
+    background-color:  #ffb6c1 !important;
+}
+.card:hover{
+    top: -5px;
+    transition: all .2s linear;
+}
+
+.card-title{
+    color: whitesmoke;
+    
+}
+.card-text{
+    color: black;
+}
+.card-text1{
+    color: whitesmoke !important;
+}
+.login{
+    cursor: pointer;
+   
+}
+.loginLogo{
+    font-size: 20px;
+    
+    
+}
+.loginLogo:hover{
+    color: red;
+}
+.carousel-control-prev{
+    color: black !important;
+}
+.carouselText{
+    color: whitesmoke;
+}
+.buttonExplore{
+    bottom: 8px;
+  right: 16px;
+}
+.whatsNew{
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
