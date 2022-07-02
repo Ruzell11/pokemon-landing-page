@@ -56,8 +56,6 @@
 }
 .loginLogo{
     font-size: 20px;
-    
-    
 }
 .loginLogo:hover{
     color: red;
@@ -90,6 +88,64 @@
 .frgtPass a p
 {
     font-size: 15px;
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.language{
+    width: 120px;
+}
+.language-selected{
+    cursor: pointer;
+}
+.language ul{
+    width: 140px;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    display: none !important;
+}
+.language ul li{
+    list-style: none;
+}
+
+.language-selected:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-image: url('https://3.bp.blogspot.com/-6NvXWVDV2ik/Vv_XX-7qAdI/AAAAAAAAWe0/4Q2acs5caTY_swoAgzKqNU_PaEC-ZQIuw/s1600/American%2BFlag.png');
+}
+.language-selected.change-en::before{
+    background-image: url('https://3.bp.blogspot.com/-6NvXWVDV2ik/Vv_XX-7qAdI/AAAAAAAAWe0/4Q2acs5caTY_swoAgzKqNU_PaEC-ZQIuw/s1600/American%2BFlag.png');
+}
+.language-selected.change-ks::before{
+    background-image: url('https://media1.thehungryjpeg.com/thumbs2/800_3555080_1m12jqw4morrmfb0mspe9nsbbdhya8djaegu8rge_south-korean-flag.jpg');
+}
+.language-selected.change-es::before{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.PDnYa8NczSRAfgj9oBo9PAHaEK&pid=Api&P=0&w=268&h=151');
+}
+
+
+.language ul li a::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+a.es:before{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.PDnYa8NczSRAfgj9oBo9PAHaEK&pid=Api&P=0&w=268&h=151');
+}
+a.ks:before{
+    background-image: url('https://media1.thehungryjpeg.com/thumbs2/800_3555080_1m12jqw4morrmfb0mspe9nsbbdhya8djaegu8rge_south-korean-flag.jpg');
+}
+a.en::before{
+    background-image: url('https://3.bp.blogspot.com/-6NvXWVDV2ik/Vv_XX-7qAdI/AAAAAAAAWe0/4Q2acs5caTY_swoAgzKqNU_PaEC-ZQIuw/s1600/American%2BFlag.png');
+}
+.language:hover ul {
+    display: block !important;
 }

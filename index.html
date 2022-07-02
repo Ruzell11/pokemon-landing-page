@@ -16,40 +16,46 @@
     <link id="pagestyle" href="./assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
-<body >
-    <nav class="d-flex shadow justify-content-center align-items-center bg-light ">
-        <div class="nav-logo d-flex justify-content-center align-items-center ">
+<body  >
+    <nav class="d-flex  shadow justify-content-between align-items-center bg-light px-4 ">
+        <div class="nav-logo d-flex justify-content-center align-items-center px-4 ">
             <img src="images/Pokemon-Logo.png" alt="Pokemon-Logo" style="width: 300px;">
         </div>
         <div class="nav-links mt-3 p-2">
-            <ul class="nav-items d-flex justify-content-center align-items-center">
+            <ul class="nav-items d-flex justify-content-center align-items-center d-none ">
                 <li><a href="#" class="mx-3 fs-4">Home</a></li>
                 <li><a href="#" class="mx-3 fs-4">Pokedex</a></li>
                 <li><a href="#" class="mx-3 fs-4">Video Games & Apps</a></li>
                 <li><a href="#" class="mx-3 fs-4">Pokemon TV</a></li>
             </ul>
-            
-         
         </div>
-        <div class="login d-flex justify-content-end align-items-end mx-5 ">
-         <!-- Button trigger modal -->
-  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:whitesmoke ;">
-      LOGIN
-</button>
+      <div>
+        <div class="d-flex m-0">
+        <button type="button" class="btn btnLogin btn-warning" 
+        data-bs-toggle="modal" data-bs-target="#exampleModal" 
+         style="color:whitesmoke ;">
+             LOGIN
+     </button>
+      <div class="language position-relative fw-bold mt-2">
+      <div class="language-selected d-flex align-items-center justify-content-center ">
+              English
+      </div>
+            <ul class="position-absolute shadow d-flex align-items-start justify-content-start flex-column langWrap">
+              <li><a href="#" class="en d-block">English</a></li>
+                <li><a href="#" class="es d-block">Espanol</a></li>
+                <li><a href="#" class="ks d-block">Korea</a></li>
+              </ul>
+         </div>
+      </div>
+    </div> 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered " role="document">
     <div class="modal-content  ">
       <div class="modal-header bg-warning   d-block justify-content-center align-items-center   ">
-      
        <img src="images/Pokemon-Logo.png" alt="" class=" w-100 h-50 mx-auto">
-       
       </div>
-   
       <div class="modal-body">
         <p class="text-center fw-bold modalH1 fs-3 ">LOGIN TO CONTINUE</p>
         <form>
@@ -82,18 +88,16 @@
       </div>
     </div>
   </div>
-</div>
-
-           
+</div>    
  </div>
     </nav>
     <div style="border-bottom: 4px solid rgb(0, 123, 255);" class=""></div>
-    <div class="container text-center mt-3 justify-content-center d-flex align-items-center contentHead">
+    <div class="container text-center mt-3 justify-content-center d-flex align-items-center contentHead px-2">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-xl-8 col-xl-8 col-xs-12 d-flex justify-content-center align-items-center">
             <div class="card my-2" >
                 <img src="images/picture1.jpg" class="card-img-top w-100" alt="...">
-                <div class="card-body rounded card1" style="background-color:#9477cb ;">
+                <div class="card-body rounded card1" style="background-color:#9477cb; width: 40rem;">
                     <div class="card-title fs-2 fw-bold">
                         Pokemon
                     </div>
@@ -203,7 +207,7 @@
                     <div class="card-title  fw-bold ">
                         Get Pokémon GO Team Shirts, Hats, Hoodies, and Bags at the Pokémon Center
                     </div>
-                  <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text1 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
               <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -214,7 +218,7 @@
                     <div class="card-title  fw-bold ">
                         Embrace Sunny Days and Vacation Vibes on Pokémon TV
                     </div>
-                  <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text1 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
 
@@ -249,7 +253,7 @@
                    
                     <div class="card-body  ">
                         
-                      <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text1 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
                 </div>
