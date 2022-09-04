@@ -8,6 +8,7 @@ $(() =>{
    
     $('.btnModal').click(() =>{
         if(emailInput.value === email && passwordInput.value === password){
+            
             $('.submitText').addClass('d-none')
             $('.spinnerDiv').removeClass('d-none')
             setInterval(function(){
